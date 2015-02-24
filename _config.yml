@@ -1,0 +1,54 @@
+# Global
+timezone: America/Los_Angeles
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Site settings
+title: GitHub Pages Playground
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "http://www.kenj.rocks/ghpages-playground" # the base hostname & protocol for your site
+twitter_username: kenjij
+github_username:  kenjij
+
+# Build settings
+markdown: redcarpet
+
+# Site owner
+owner:
+  name: Ken J
+  avatar: http://www.gravatar.com/avatar/9e55061607204b755e6f8b13c2134e27.png
+  bio: "Laziness is mother of creativity."
+  email: 
+  disqus-shortname: 
+  twitter: kenjij
+  facebook: #username
+  google:
+    plus: Kenjij
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: kenjij
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
